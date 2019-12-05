@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "11.0"
 
   s.source       = { :git => "https://github.com/jaygauten/SalesforceMobileSDK-iOS.git",
-                     :branch => "vlocity-master",
+                     :tag => "vloc-#{s.version}",
                      :submodules => true }
   
   s.requires_arc = true
