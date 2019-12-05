@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SalesforceAnalytics"
-  s.version      = "vloc-7.3.0"
+  s.version      = "7.3.0"
   s.summary      = "Salesforce Mobile SDK for iOS"
   s.homepage     = "https://github.com/jaygauten/SalesforceMobileSDK-iOS"
 
