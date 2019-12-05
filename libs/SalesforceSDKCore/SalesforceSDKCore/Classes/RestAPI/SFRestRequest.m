@@ -181,7 +181,7 @@ NSString * const kSFDefaultRestEndpoint = @"/services/data";
         [fullUrl appendString:path];
 
         // Adds query parameters to the request if any are set.
-        if (self.queryParams) {
+        if ([self.queryParams count] >= 1) {
 
             // Not using NSUrlQueryItems because of https://stackoverflow.com/questions/41273994/special-characters-not-being-encoded-properly-inside-urlqueryitems
             [fullUrl appendString:[SFRestRequest toQueryString:self.queryParams]];
